@@ -31,7 +31,7 @@ html {
 /* Sidebar */
 
 .sidebar {
-  width: 300px; /* Tamaño fijo del sidebar */
+  width: 100px; /* Tamaño fijo del sidebar */
   position: fixed; /* Sidebar fijo */
   top: 0;
   left: 0;
@@ -39,7 +39,7 @@ html {
   text-align: left;
   padding: 2rem 1rem;
   background-color: #202020;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 205, 255, 0.5);
 }
 
 /* Sidebar links */
