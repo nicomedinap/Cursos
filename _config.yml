@@ -1,9 +1,7 @@
-excerpt_separator: ""
-pygments: ""
-url: http://nicomedinap.github.io/Cursos
 title: Cursos
 tagline: experimentales
 description: ""
 paginate: 10
 theme: jekyll-theme-cayman
 highlighter: rouge
+url: http://nicomedinap.github.io/Cursos
