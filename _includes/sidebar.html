@@ -4,6 +4,62 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/public/css/hyde_mod.css">
 
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .sidebar {
+      width: 300px;
+      padding: 15px;
+      background-color: #f4f4f4;
+    }
+
+    .sidebar h2 {
+      font-size: 1.5rem;
+    }
+
+    .sidebar .lead {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .sidebar ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .sidebar ul li {
+      margin-bottom: 1rem;
+    }
+
+    .category {
+      cursor: pointer;
+      font-weight: bold;
+      margin-bottom: .5rem;
+    }
+
+    .subcategory {
+      display: none;
+      padding-left: 1.5rem; /* Indent subcategories */
+    }
+
+    .subcategory li {
+      margin-bottom: .5rem;
+    }
+
+    .subcategory li a {
+      text-decoration: none;
+      color: #268bd2;
+    }
+
+    .subcategory li a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
   <script>
     // Toggle subcategories
     document.addEventListener("DOMContentLoaded", () => {
@@ -41,7 +97,6 @@
       ></a>
     </center>
 
-
     <ul>
       <li>
         <div class="category">Física elemental</div>
@@ -72,7 +127,5 @@
         </ul>
       </li>
     </ul>
-
-
   </div>
 </body>
