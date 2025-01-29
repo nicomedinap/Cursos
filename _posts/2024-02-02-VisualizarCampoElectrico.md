@@ -22,28 +22,28 @@ mathjax: true
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>La teoría electrostática nos dice que el campo eléctrico $\vec{E}(\vec{x})$ en cada punto del espacio 2D $(x,y)$ caracterizado por el vector $\vec{x}=(x,y)$, en el cual actúan una distribución de cargas puntuales $q$ cada una de ellas con posición $\vec{x}^{*}$ es cuantificado por la siguiente ley física:</p>
-$$\vec{E}(\vec{x}-\vec{x}^{*}) = \frac{q}{4\pi \epsilon_{0}}\frac{(\vec{x}-\vec{x}^{*})}{\|\vec{x}-\vec{x}^{*}\|^3}, $$<p>donde $\epsilon_0$ es la constante conocida como la &quot;permitividad del vacío&quot;, estréchamente relacionada con la velocidad de la luz $c$ y la &quot;permeabilidad magnética del vacío&quot; $\mu_0$, y se define de la forma:</p>
+<p>La teoría electrostática nos dice que el campo eléctrico $\overrightarrow{E}(\overrightarrow{x})$ en cada punto del espacio 2D $(x,y)$ caracterizado por el vector $\overrightarrow{x}=(x,y)$, en el cual actúan una distribución de cargas puntuales $q$ cada una de ellas con posición $\overrightarrow{x}^{*}$ es cuantificado por la siguiente ley física:</p>
+$$\overrightarrow{E}(\overrightarrow{x}-\overrightarrow{x}^{*}) = \frac{q}{4\pi \epsilon_{0}}\frac{(\overrightarrow{x}-\overrightarrow{x}^{*})}{\|\overrightarrow{x}-\overrightarrow{x}^{*}\|^3}, $$<p>donde $\epsilon_0$ es la constante conocida como la &quot;permitividad del vacío&quot;, estréchamente relacionada con la velocidad de la luz $c$ y la &quot;permeabilidad magnética del vacío&quot; $\mu_0$, y se define de la forma:</p>
 $$\displaystyle \epsilon_0 = \frac{1}{c^2\mu_0} = 8.8541\times10^{-12} \left[\frac{\mbox{F}}{\mbox{m}}\right],$$<p>donde F expresa las unidades de Faradios, y m los metros de toda la vida. Todo lo anterior puede sonar intimidante, pero esto sólo es la generalidad del comienzo. Básicamente, el campo eléctrico es proporcional del cuadrado de la distancia, entonces en principio bastaría calcular la distancia $d = \sqrt{x^2 + y^2}$ a cada punto y calcular el campo en dicho punto. Por lo tanto, la geometría del problema ha hablado, y podemos considerar coordenadas polares $(r,\theta)$ para así facilitar los cálculos.</p>
-<p>Si consideramos el el vector cartesiano $\vec{x} = x \hat{i} + y \hat{j}$, utilizando un cambio de variable tal que:</p>
-$$x= r \cos \theta, y= r \sin \theta\, $$<p>tenemos que el vector cartesiano $\vec{x}$ puede ser descrito por:</p>
+<p>Si consideramos el el vector cartesiano $\overrightarrow{x} = x \hat{i} + y \hat{j}$, utilizando un cambio de variable tal que:</p>
+$$x= r \cos \theta, y= r \sin \theta\, $$<p>tenemos que el vector cartesiano $\overrightarrow{x}$ puede ser descrito por:</p>
 \begin{align*}
- \vec{x}  \&gt;&amp;=\&gt; x \hat{i} + y \hat{j} \\
+ \overrightarrow{x}  \&gt;&amp;=\&gt; x \hat{i} + y \hat{j} \\
          \&gt;&amp;=\&gt;  r \cos \theta\ \hat{i} + r \sin \theta\ \hat{j} \\
          \&gt;&amp;=\&gt; r \left( \cos \theta\ \hat{i} + \sin \theta\ \hat{j}\right)     \\
          \&gt;&amp;=\&gt; r\ \hat{r}(\theta)     \\
-\end{align*}<p>Así, podemos simplificar un problema de dos variables $(x,y)$ en solo una $r$, por lo tanto nos enfrentamos a un problema que depende nétamente de la distancia $r$ de cada carga $q$ que interaccione en este campo eléctrico. Como el vector $\vec{x}$ depende sólo de la distancia a las fuentes $\vec{x}^{*}$, el vector que apunta a cada elemento en este espacio será $\left( \vec{x} - \vec{x}^{*} \right)$. Ya con esto podemos usar diréctamente el teoréma de pitágoras para calcular la distancia de la fuente a cada punto del espacio, pero empezaremos por una carga puntual en el origen.</p>
+\end{align*}<p>Así, podemos simplificar un problema de dos variables $(x,y)$ en solo una $r$, por lo tanto nos enfrentamos a un problema que depende nétamente de la distancia $r$ de cada carga $q$ que interaccione en este campo eléctrico. Como el vector $\overrightarrow{x}$ depende sólo de la distancia a las fuentes $\overrightarrow{x}^{*}$, el vector que apunta a cada elemento en este espacio será $\left( \overrightarrow{x} - \overrightarrow{x}^{*} \right)$. Ya con esto podemos usar diréctamente el teoréma de pitágoras para calcular la distancia de la fuente a cada punto del espacio, pero empezaremos por una carga puntual en el origen.</p>
 <h3 id="El-caso-m%C3%A1s-simple:-carga-en-el-origen">El caso m&#225;s simple: carga en el origen<a class="anchor-link" href="#El-caso-m%C3%A1s-simple:-carga-en-el-origen">;</a></h3><p>Considerando una carga puntual en el origen (es decir, $(x^{*}, y^{*})=(0,0)$), se puede demostrar que la expresión del campo eléctrico en todo punto es de la forma:</p>
-$$\vec{E}(\vec{r}) = \frac{q}{4\pi \epsilon_{0}}\frac{\hat{r}}{r^2},$$<p>donde cada carga $q$ presentes y considerados en el problema tiene similares propiedades. El vector $\vec{r}=r\ \hat{r}$ es un vector polar el cual debe ser expresado en las coordenadas cartesianas que usaremos para visualizar los efectos. Considerando la distancia desde el origen a cualquier punto del espacio:</p>
+$$\overrightarrow{E}(\overrightarrow{r}) = \frac{q}{4\pi \epsilon_{0}}\frac{\hat{r}}{r^2},$$<p>donde cada carga $q$ presentes y considerados en el problema tiene similares propiedades. El vector $\overrightarrow{r}=r\ \hat{r}$ es un vector polar el cual debe ser expresado en las coordenadas cartesianas que usaremos para visualizar los efectos. Considerando la distancia desde el origen a cualquier punto del espacio:</p>
 $$r = \sqrt{x^2 + y^2}$$<p>Y además, considerando la descomposición</p>
 \begin{align*}
-\vec{E}(r,\theta)  \&gt;&amp;=\&gt; \frac{q}{4\pi \epsilon_{0}}\frac{\hat{r}}{r^2} \\
+\overrightarrow{E}(r,\theta)  \&gt;&amp;=\&gt; \frac{q}{4\pi \epsilon_{0}}\frac{\hat{r}}{r^2} \\
             \&gt;&amp;=\&gt; \frac{q}{4\pi \epsilon_{0}}\frac{ \left[\cos \theta\ \hat{i} + \sin \theta\ \hat{j} \right]} {r^2} \\
             \&gt;&amp;=\&gt; \frac{q}{4\pi \epsilon_{0}}\frac{ r \left[\cos \theta\ \hat{i} + \sin \theta\ \hat{j} \right]} {r^3} \\
             \&gt;&amp;=\&gt; \left( \frac{q}{4\pi \epsilon_0}\frac{r \cos \theta}{r^3}\right) \hat{i} + \left(\frac{q}{4\pi \epsilon_0} \frac{r \sin \theta}{r^3}\right) \hat{j}
 \end{align*}<p>Podemos obtener una expresión que será  útil para convertir a coordenadas cartesianas. Vean que, de hecho, agregamos un término &quot;$r$&quot; en el tercer paso para manipular la expresión. Entonces, usando el cambio de variable de coordenadas de cartesianas a polares:</p>
 \begin{align*}
-\vec{E}(x,y)  \&gt;&amp;=\&gt;  E_x \hat{i} + E_y\hat{j} \\
+\overrightarrow{E}(x,y)  \&gt;&amp;=\&gt;  E_x \hat{i} + E_y\hat{j} \\
          \&gt;&amp;=\&gt; \left( \frac{q}{4\pi \epsilon_0}\frac{r \cos \theta}{r^3}\right) \hat{i} + \left(\frac{q}{4\pi \epsilon_0} \frac{r \sin \theta}{r^3}\right) \hat{j} \\
          \&gt;&amp;=\&gt; \left( \frac{q}{4\pi \epsilon_0}\frac{x}{(x^2 + y^2)^{\frac{3}{2}}}\right) \hat{i} + \left(\frac{q}{4\pi \epsilon_0} \frac{y}{(x^2 + y^2)^{\frac{3}{2}}}\right) \hat{j} 
 \end{align*}<p>Por ende en coordenadas cartesianas el campo eléctrico y las componentes se calculan de la siguiente forma:</p>
@@ -148,7 +148,7 @@ $$E_x = \frac{q}{4\pi \epsilon_0}\frac{x}{(x^2 + y^2)^{\frac{3}{2}}} $$$$E_y = \
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Entonces, lo que haremos es cada punto (i,j) de la siguiente matriz, será evaluadaa la función E_origen, luego calculamos el campo eléctrico $\vec{E}(x,y)$ desde la suma independiente de sus componentes individuales $E_{x}$ y $E_{y}$</p>
+<p>Entonces, lo que haremos es cada punto (i,j) de la siguiente matriz, será evaluadaa la función E_origen, luego calculamos el campo eléctrico $\overrightarrow{E}(x,y)$ desde la suma independiente de sus componentes individuales $E_{x}$ y $E_{y}$</p>
 
 </div>
 </div>
@@ -226,11 +226,11 @@ Cargas negativas $-q$ recibe líneas de campo eléctrico, también conocido como
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Como nos enfrentamos a un problema que depende nétamente de la distancia $r$ de cada carga $q$ que interaccione en este campo eléctrico, el vector que apunta a cada elemento en este espacio, considerando la influencia de las cargas presentes será $\left( \vec{x} - \vec{x}^{*} \right)$.</p>
+<p>Como nos enfrentamos a un problema que depende nétamente de la distancia $r$ de cada carga $q$ que interaccione en este campo eléctrico, el vector que apunta a cada elemento en este espacio, considerando la influencia de las cargas presentes será $\left( \overrightarrow{x} - \overrightarrow{x}^{*} \right)$.</p>
 <p>Por suerte, podemos seguir usando nuestro querido teoréma de pitágoras y calcular la distancia a cada punto del espacio de la forma:</p>
 $$r = \sqrt{ (x-x^{*})^2 + (y-y^{*})^2}$$<p>De la misma forma anterior, considerando la descomposición:</p>
 \begin{align*}
-\vec{E}(\vec{x} - \vec{x}^{*})  \&gt;&amp;=\&gt;  E_x \hat{i} + E_y\hat{j} \\
+\overrightarrow{E}(\overrightarrow{x} - \overrightarrow{x}^{*})  \&gt;&amp;=\&gt;  E_x \hat{i} + E_y\hat{j} \\
          \&gt;&amp;=\&gt; \left( \frac{q}{4\pi \epsilon_0}\frac{r \cos \theta}{r^3}\right) \hat{i} + \left(\frac{q}{4\pi \epsilon_0} \frac{r \sin \theta}{r^3}\right) \hat{j} \\
          \&gt;&amp;=\&gt; \left( \frac{q}{4\pi \epsilon_0}\frac{(x-x^{*})}{\left[(x-x^{*})^2 + (y-y^{*})^2\right]^{\frac{3}{2}}}\right) \hat{i} + \left(\frac{q}{4\pi \epsilon_0} \frac{(y-y^{*})}{\left[(x-x^{*})^2 + (y-y^{*})^2\right]^{\frac{3}{2}}}\right) \hat{j} 
 \end{align*}<p>Por ende en coordenadas cartesianas el campo eléctrico y las componentes se calculan de la siguiente forma:</p>
@@ -389,10 +389,10 @@ $$E_x = \frac{q}{4\pi \epsilon_0}\frac{(x-x^{*})}{ \left[(x-x^{*})^2 + (y-y^{*})
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Veamos que esta carga es negativa, por lo que <strong>atrae líneas de campo eléctrico</strong>. Las cargas positivas emiten líneas de campo eléctrio, las cargas negativas atraen líneas de campo, es por esto que el dicho popular dice: &quot;los opuestos de atraen&quot;.</p>
-<h2 id="Superposici%C3%B3n-del-campo-el%C3%A9ctrico">Superposici&#243;n del campo el&#233;ctrico<a class="anchor-link" href="#Superposici%C3%B3n-del-campo-el%C3%A9ctrico">;</a></h2><p>Otra gran propiedad aplicable al campo eléctrico es el principio de superposicion, es decir que es posible calcular el campo eléctrico total $\vec{E}_{total}$ en una región es igual a la suma individual del campo eléctrico provocado por cada fuente. La suma individual de cada componente del sistema dará como resultado el campo total.</p>
+<h2 id="Superposici%C3%B3n-del-campo-el%C3%A9ctrico">Superposici&#243;n del campo el&#233;ctrico<a class="anchor-link" href="#Superposici%C3%B3n-del-campo-el%C3%A9ctrico">;</a></h2><p>Otra gran propiedad aplicable al campo eléctrico es el principio de superposicion, es decir que es posible calcular el campo eléctrico total $\overrightarrow{E}_{total}$ en una región es igual a la suma individual del campo eléctrico provocado por cada fuente. La suma individual de cada componente del sistema dará como resultado el campo total.</p>
 <p>En general, podríamos tener $N$ cargas puntuales y el campo eléctrico total en cada punto será las sumas individuales de cada campo eléctrico en ese punto. Dicho de forma matemática:</p>
-$$ \vec{E}_{total} = \vec{E}_{q_1} + \vec{E}_{q_2} + ... + \vec{E}_{q_N} = \sum_{k=i}^{N} \vec{E}_{k}$$<p>Usaremos esta propiedad en las dos cargas antes creadas: la carga positiva $q$ creada en los puntos (x,y)=(0,2) y la carga negativa $-q$ que hemos cread en los puntos (x,y)=(0,-2). Así, podemos expresar la superposición de la forma:</p>
-$$ \vec{E}_{total} = \sum_{k=1}^{2} \vec{E}_k = \vec{E}_{q_1} + \vec{E}_{q_2} $$<p>En el caso de dos cargas opuestas, alineadas en el eje x, se forma el patrón de un <a href="https://es.wikipedia.org/wiki/Dipolo_el%C3%A9ctrico">dipolo eléctrico</a>:</p>
+$$ \overrightarrow{E}_{total} = \overrightarrow{E}_{q_1} + \overrightarrow{E}_{q_2} + ... + \overrightarrow{E}_{q_N} = \sum_{k=i}^{N} \overrightarrow{E}_{k}$$<p>Usaremos esta propiedad en las dos cargas antes creadas: la carga positiva $q$ creada en los puntos (x,y)=(0,2) y la carga negativa $-q$ que hemos cread en los puntos (x,y)=(0,-2). Así, podemos expresar la superposición de la forma:</p>
+$$ \overrightarrow{E}_{total} = \sum_{k=1}^{2} \overrightarrow{E}_k = \overrightarrow{E}_{q_1} + \overrightarrow{E}_{q_2} $$<p>En el caso de dos cargas opuestas, alineadas en el eje x, se forma el patrón de un <a href="https://es.wikipedia.org/wiki/Dipolo_el%C3%A9ctrico">dipolo eléctrico</a>:</p>
 
 </div>
 </div>
@@ -471,7 +471,7 @@ $$ \vec{E}_{total} = \sum_{k=1}^{2} \vec{E}_k = \vec{E}_{q_1} + \vec{E}_{q_2} $$
 <li>Definir cómo se distribuirán las cargas, y su signo (q o -q).</li>
 <li>Agregar la carga al contenedor $\mathtt{cargas}$.</li>
 <li>Hacer un loop sobre cada carga, y que su contribución se haga individualmente.</li>
-<li>Visualización del campo $\vec{E}(x,y)$</li>
+<li>Visualización del campo $\overrightarrow{E}(x,y)$</li>
 </ol>
 <p>Construiré estructuras sencillas, seguidas en la lógica de las funciones que hemos creado. Por ejemplo podemos crear una &quot;barra&quot; cargada positivamente, hecha por una fila de cargas puntuales positivas y evaluaremos cada campo eléctrico por separado. Para esto, usaremos 100 cargas individuales, equiespaciadas entre -5 a 5 en el eje $y$. También, vamos a considerar que las estructuras de color <strong>roja</strong> están cargadas positivamente (fuentes de campo eléctrico), y las estructuras <strong>azules</strong> serán cargas negativas (receptoras de campo eléctrico).</p>
 
@@ -973,8 +973,8 @@ $$ \vec{E}_{total} = \sum_{k=1}^{2} \vec{E}_k = \vec{E}_{q_1} + \vec{E}_{q_2} $$
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Potencial-electrost%C3%A1tico">Potencial electrost&#225;tico<a class="anchor-link" href="#Potencial-electrost%C3%A1tico">;</a></h2><p>Ya para finalizar, una cantidad aún más fudamental que el campo eléctrico es el potencial electrostático. Para una carga puntual, el potencial está definido por:</p>
-$$\phi(\vec{x}-\vec{x}^{*}) = \frac{1}{4\pi \epsilon_{0}}\frac{q}{\|\vec{x}-\vec{x}^{*}\|}. $$<p>Es una cantidad fundamental, ya que es un <strong>campo escalar</strong>, es decir que para cada punto (x,y) existe un valor $\phi(\vec{x})$ asociado. Por consecuencia, el potencial eléctrico es una distribución en el espacio, y no dos o más valores asociadas, como es el caso del campo eléctrico $\vec{E}$. Por supuesto que el vínculo entre el potencial y el cámpo es estrecha, dado que el Campo eléctrico es el <strong>gradiente del potencial eléctrico</strong>:</p>
-$$\vec{E} = -\vec{\nabla}\phi(\vec{x}),$$<p>es decir, el campo eléctrico en realidad sigue la dirección donde el potencial $\phi$ cambiará más rapidamente, generando <strong>superficies equipotenciales</strong> en lugares que sean perpendiculares a las líneas de campo eléctrico.</p>
+$$\phi(\overrightarrow{x}-\overrightarrow{x}^{*}) = \frac{1}{4\pi \epsilon_{0}}\frac{q}{\|\overrightarrow{x}-\overrightarrow{x}^{*}\|}. $$<p>Es una cantidad fundamental, ya que es un <strong>campo escalar</strong>, es decir que para cada punto (x,y) existe un valor $\phi(\overrightarrow{x})$ asociado. Por consecuencia, el potencial eléctrico es una distribución en el espacio, y no dos o más valores asociadas, como es el caso del campo eléctrico $\overrightarrow{E}$. Por supuesto que el vínculo entre el potencial y el cámpo es estrecha, dado que el Campo eléctrico es el <strong>gradiente del potencial eléctrico</strong>:</p>
+$$\overrightarrow{E} = -\overrightarrow{\nabla}\phi(\overrightarrow{x}),$$<p>es decir, el campo eléctrico en realidad sigue la dirección donde el potencial $\phi$ cambiará más rapidamente, generando <strong>superficies equipotenciales</strong> en lugares que sean perpendiculares a las líneas de campo eléctrico.</p>
 <p>El potencial es definido en la siguiente función llamada $\mathtt{P\_ puntual}$:</p>
 
 </div>
@@ -1000,7 +1000,7 @@ $$\vec{E} = -\vec{\nabla}\phi(\vec{x}),$$<p>es decir, el campo eléctrico en rea
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Usaremos algunas de las configuraciones anteriores y visualizaremos el potencial $\phi(\vec{x}-\vec{x}^{*})$ en conjunto con los campos eléctricos. Hasta usaremos el mismo bucle para calcular el campo escalar:</p>
+<p>Usaremos algunas de las configuraciones anteriores y visualizaremos el potencial $\phi(\overrightarrow{x}-\overrightarrow{x}^{*})$ en conjunto con los campos eléctricos. Hasta usaremos el mismo bucle para calcular el campo escalar:</p>
 
 </div>
 </div>
