@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hay montañas de evidencia
+title: La ecuación itinerario
 mathjax: true
 ---
 {% include mathjax.html %}
@@ -54,8 +54,8 @@ $$<p>Solo queda asumir qué valores necesitamos para las constantes $x_0,y_0$ (p
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Serie de tiempo de la estrella Lucy</p>
-<img src="https://iwant2study.org/lookangejss/physicaleducation/ejss_model_projectileESSangleofrelease/projectile/Screenshot%202020-02-18%20at%203.46.53%20PM.png" width="700" height="370" />
+<p>Representacion del problema inicial</p>
+<img src="https://iwant2study.org/lookangejss/physicaleducation/ejss_model_projectileESSangleofrelease/projectile/Screenshot%202020-02-18%20at%203.46.53%20PM.png" width="200" height="150" />
 
 </div>
 </div>
@@ -101,10 +101,6 @@ $$<p>Solo queda asumir qué valores necesitamos para las constantes $x_0,y_0$ (p
 <span class="n">ax</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="o">-</span><span class="mf">0.7</span><span class="p">,</span> <span class="mf">1.8</span><span class="p">,</span> <span class="sa">r</span><span class="s1">&#39;$v_y \hat</span><span class="si">{j}</span><span class="s1">$&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="n">fz</span><span class="p">)</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="o">-</span><span class="mf">0.65</span><span class="p">,</span> <span class="mf">1.4</span><span class="p">,</span> <span class="sa">r</span><span class="s1">&#39;$=$&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="n">fz</span><span class="p">)</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="o">-</span><span class="mf">0.9</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="sa">r</span><span class="s1">&#39;$\vec</span><span class="si">{v}</span><span class="s1"> \sin(\theta)$&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="n">fz</span><span class="p">)</span>
-
-<span class="c1"># Dibujar las líneas punteadas para los componentes</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="s1">&#39;k--&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.4</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="s1">&#39;k--&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.4</span><span class="p">)</span>
 
 <span class="c1"># Etiquetar el ángulo</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="sa">r</span><span class="s1">&#39;$\theta$&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="n">fz</span><span class="p">)</span>
