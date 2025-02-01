@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hay montañas de evidencia
+title: La ecuación Itinerario
 mathjax: true
 ---
 {% include mathjax.html %}
