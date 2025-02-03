@@ -4097,7 +4097,9 @@ MC4xNi4xMDA=
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Solucionemos numericamente el problema 4.7 del blog: <a href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/4-3-movimiento-de-proyectil#:~:text=El%20movimiento%20de%20proyectil%20es,f%C3%ADsica%20e%20ingenier%C3%ADa%20son%20numerosas">https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/4-3-movimiento-de-proyectil#:~:text=El%20movimiento%20de%20proyectil%20es,f%C3%ADsica%20e%20ingenier%C3%ADa%20son%20numerosas</a>.</p>
+<p>Solucionemos numericamente el problema 4.7 del blog: 
+
+<a target="_blank" href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/4-3-movimiento-de-proyectil#:~:text=El%20movimiento%20de%20proyectil%20es,f%C3%ADsica%20e%20ingenier%C3%ADa%20son%20numerosas">Openstax</a>
 
 </div>
 </div>
