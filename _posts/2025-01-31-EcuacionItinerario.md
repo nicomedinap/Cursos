@@ -4101,9 +4101,6 @@ MC4xNi4xMDA=
 
 <a target="_blank" href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/4-3-movimiento-de-proyectil#:~:text=El%20movimiento%20de%20proyectil%20es,f%C3%ADsica%20e%20ingenier%C3%ADa%20son%20numerosas">Openstax</a>
 
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="inner_cell">
