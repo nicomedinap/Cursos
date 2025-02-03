@@ -28,7 +28,7 @@ $$$$
 $$<p>donde $x_0$ es la posición inicial. Por lo tanto, la ecuación de movimiento para una partícula uniformemente acelerada es:</p>
 $$
 \vec{x}(t) = \vec{x}_0 + \vec{v}_0 t + \frac{1}{2} \vec{a} t^2 \ \ \ \ \ 
-$$<p>La ecuación de itinerario es la ecuación que indica la posición de un objeto en función del tiempo. Se usa para predecir la ubicación de un objeto en un tiempo cualquiera $t$. Por supuesto, como el vector posición $\vec{x}$, mejor conocido como \vec{r}(x)) está definido como un vector, es un objeto que tiene a lo menos dos coordenadas. Si quisieramos utilizarlo para describir el movimiento en dos dimensiones (2D), por ende la descripción usual de</p>
+$$<p>La ecuación de itinerario es la ecuación que indica la posición de un objeto en función del tiempo. Se usa para predecir la ubicación de un objeto en un tiempo cualquiera $t$. Por supuesto, como el vector posición $\vec{x}$, mejor conocido como $\vec{r}(x)$, está definido como un vector, es un objeto que tiene a lo menos dos coordenadas. Si quisieramos utilizarlo para describir el movimiento en dos dimensiones (2D), por ende la descripción usual de</p>
 $$
 \vec{r}(x(t),y(t)) = x(t) \hat{i} + y(t) \hat{j},
 $$<p>donde</p>
@@ -135,7 +135,7 @@ $$<p>Solo queda asumir qué valores necesitamos para las constantes $x_0,y_0$ (p
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>como en el eje x no existe la gravedad, no existe aceleración actuando sobre la pelota, por ende $a_x$ = 0, por otro lado, el eje y si hay aceleración de gravedad, por lo que la aceleración provocada en esta dimensión es la famosa constate de gravedad g, es decir, $a_y = g$. con esto, nuestras ecuaciones se reducen a:</p>
+<p>como en el eje x no existe la gravedad, no existe aceleración actuando sobre la pelota, por ende $a_x$ = 0, por otro lado, el eje y si hay aceleración de gravedad, por lo que la aceleración provocada en esta dimensión es la famosa constate de gravedad g, es decir, $a_y = -g$. con esto, nuestras ecuaciones se reducen a:</p>
 $$
 x(t) = v_x \cos(\theta) \cdot t 
 $$$$
