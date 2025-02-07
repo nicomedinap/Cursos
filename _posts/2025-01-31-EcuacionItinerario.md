@@ -28,7 +28,7 @@ $$$$
 $$<p>donde $x_0$ es la posición inicial. Por lo tanto, la ecuación de movimiento para una partícula uniformemente acelerada es:</p>
 $$
 \vec{x}(t) = \vec{x}_0 + \vec{v}_0 t + \frac{1}{2} \vec{a} t^2 \ \ \ \ \ 
-$$<p>La ecuación de itinerario es la ecuación que indica la posición de un objeto en función del tiempo. Se usa para predecir la ubicación de un objeto en un tiempo cualquiera $t$. Por supuesto, como el vector posición $\vec{x}$, mejor conocido como $\vec{r}(x)$, está definido como un vector, es un objeto que tiene a lo menos dos coordenadas. Si quisieramos utilizarlo para describir el movimiento en dos dimensiones (2D), por ende la descripción usual de</p>
+$$<p>La ecuación de itinerario es la ecuación que indica la posición de un objeto en función del tiempo. Se usa para predecir la ubicación de un objeto en un tiempo cualquiera $t$. Por supuesto, como el vector posición $\vec{x}$, mejor conocido como $\vec{r}(t)$, está definido como un vector, es un objeto que tiene a lo menos dos coordenadas. Si quisieramos utilizarlo para describir el movimiento en dos dimensiones (2D), por ende la descripción usual de</p>
 $$
 \vec{r}(x(t),y(t)) = x(t) \hat{i} + y(t) \hat{j},
 $$<p>donde</p>
@@ -36,7 +36,7 @@ $$
 x(t) = x_0 + v_x t + \frac{1}{2} a_x t^2, 
 $$$$
 y(t) = y_0 + v_y t + \frac{1}{2} a_y t^2, 
-$$<p>Solo queda asumir qué valores necesitamos para las constantes $x_0,y_0$ (posiciones iniciales), $v_x, v_y$ la velocidad inicial, $a_x, a_y$ las aceleraciones, para poder describir el proceso físico de interés. El más clásico diria yo, es el lanzamiento de un proyectil.</p>
+$$<p>Solo queda asumir qué valores necesitamos para las constantes $x_0,y_0$ (posiciones iniciales), $v_x, v_y$ (la velocidad inicial) y $a_x, a_y$ (las aceleraciones) para poder describir el proceso físico de interés. El más clásico diria yo, es el lanzamiento de un proyectil.</p>
 
 </div>
 </div>
