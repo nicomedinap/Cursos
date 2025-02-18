@@ -28,7 +28,7 @@ $$$$
 $$<p>donde $x_0$ es la posición inicial. Por lo tanto, la ecuación de movimiento para una partícula uniformemente acelerada es:</p>
 $$
 \vec{x}(t) = \vec{x}_0 + \vec{v}_0 t + \frac{1}{2} \vec{a} t^2 \ \ \ \ \ 
-$$<p>La ecuación de itinerario es la ecuación que indica la posición de un objeto en función del tiempo. Se usa para predecir la ubicación de un objeto en un tiempo cualquiera $t$. Por supuesto, como el vector posición $\vec{x}$ (a.k.a. \vec{r}) está definido como un vector, es un objeto que tiene a lo menos dos coordenadas. Si quisieramos utilizarlo para describir el movimiento en dos dimensiones (2D), por ende la descripción usual de</p>
+$$<p>La ecuación de itinerario es la ecuación que indica la posición de un objeto en función del tiempo. Se usa para predecir la ubicación de un objeto en un tiempo cualquiera $t$. Por supuesto, como el vector posición $\vec{x}$, mejor conocido como $\vec{r}(t)$, está definido como un vector, es un objeto que tiene a lo menos dos coordenadas. Si quisieramos utilizarlo para describir el movimiento en dos dimensiones (2D) debemos hacer explícitas sus componentres. Podemos describir al vector $\vec{r}(t)$ de la forma:</p>
 $$
 \vec{r}(x(t),y(t)) = x(t) \hat{i} + y(t) \hat{j},
 $$<p>donde</p>
@@ -36,7 +36,7 @@ $$
 x(t) = x_0 + v_x t + \frac{1}{2} a_x t^2, 
 $$$$
 y(t) = y_0 + v_y t + \frac{1}{2} a_y t^2, 
-$$<p>Solo queda asumir qué valores necesitamos para las constantes $x_0,y_0$ (posiciones iniciales), $v_x, v_y$ la velocidad inicial, $a_x, a_y$ las aceleraciones, para poder describir el proceso físico de interés. El más clásico diria yo, es el lanzamiento de un proyectil.</p>
+$$<p>Solo queda asumir qué valores necesitamos para las constantes $x_0,y_0$ (posiciones iniciales), $v_x, v_y$ (la velocidad inicial) y $a_x, a_y$ (las aceleraciones) para poder describir el proceso físico de interés. El más clásico diria yo, es el lanzamiento de un proyectil.</p>
 
 </div>
 </div>
@@ -44,8 +44,8 @@ $$<p>Solo queda asumir qué valores necesitamos para las constantes $x_0,y_0$ (p
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="El-lanzamiento-de-proyectil">El lanzamiento de proyectil<a class="anchor-link" href="#El-lanzamiento-de-proyectil"></a></h3><p>El lanzamiento de un proyectil es un problema clásico de la física que se puede analizar utilizando las leyes del movimiento. La idea es utilizar la ecuación itinerario para simular la trayectoria de una masa lanzada con una velocidad inicial en una dirección específica.</p>
-<p>Digamos, por ejemplo, que hay una pelota de fubtol en reposo sobre una superficie. El primer instinsto de un porcentaje preocupante de la población, sería patear la pelota, lanzandola quizá dónde. Perdimos la pelota, pero fuimos testigos del lanzamiento de un proyectil. Cualquier objeto que es lanzado y continúa en movimiento producto de su propia inercia es llamado &quot;un proyectil&quot;.</p>
+<h3 id="El-lanzamiento-de-proyectil">El lanzamiento de proyectil<a class="anchor-link" href="#El-lanzamiento-de-proyectil"></a></h3><p>El lanzamiento de un proyectil es un problema clásico de la física que se puede analizar utilizando las leyes del movimiento. La idea es utilizar la ecuación itinerario para calcular y predecir la trayectoria de una masa lanzada con una velocidad inicial en una dirección específica.</p>
+<p>Digamos, por ejemplo, que hay una pelota de futbol en reposo sobre una superficie. El primer instinto de un porcentaje preocupante de la población sería patear la pelota lo más lejos posible, lanzándola quizá dónde. Perdimos la pelota, pero fuimos testigos del lanzamiento de &quot;un proyectil&quot;: cualquier objeto que es lanzado y continúa en movimiento producto de su propia inercia.</p>
 <p>Si fijamos el origen de coordenadas cartesiano sobre el punto inicial de la pelota, tenemos que $x_0 = 0$ e $y_0 = 0$, sólo necesitamos saber la velocidad inicial $\vec{v}_0$ y el ángulo $\theta$ en el cual ha sido lanzada la pelota por la senda patada propinada por la falta de límites. podemos estimar la velocidad de la patada y usar la ecuación itinerario para saber dónde estará la pelota en cada instante de tiempo $t$</p>
 
 </div>
@@ -135,7 +135,7 @@ $$<p>Solo queda asumir qué valores necesitamos para las constantes $x_0,y_0$ (p
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>como en el eje x no existe la gravedad, no existe aceleración actuando sobre la pelota, por ende $a_x$ = 0, por otro lado, el eje y si hay aceleración de gravedad, por lo que la aceleración provocada en esta dimensión es la famosa constate de gravedad g, es decir, $a_y = g$. con esto, nuestras ecuaciones se reducen a:</p>
+<p>como en el eje x no existe la gravedad, no existe aceleración actuando sobre la pelota, por ende $a_x$ = 0, por otro lado, el eje y si hay aceleración de gravedad, por lo que la aceleración provocada en esta dimensión es la famosa constate de gravedad g, es decir, $a_y = -g$. con esto, nuestras ecuaciones se reducen a:</p>
 $$
 x(t) = v_x \cos(\theta) \cdot t 
 $$$$
@@ -4097,11 +4097,10 @@ MC4xNi4xMDA=
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Solucionemos numericamente el problema 4.7 del blog: <a href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/4-3-movimiento-de-proyectil#:~:text=El%20movimiento%20de%20proyectil%20es,f%C3%ADsica%20e%20ingenier%C3%ADa%20son%20numerosas">https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/4-3-movimiento-de-proyectil#:~:text=El%20movimiento%20de%20proyectil%20es,f%C3%ADsica%20e%20ingenier%C3%ADa%20son%20numerosas</a>.</p>
+<p>Solucionemos numericamente el problema 4.7 del blog: 
 
-</div>
-</div>
-</div>
+<a target="_blank" href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/4-3-movimiento-de-proyectil#:~:text=El%20movimiento%20de%20proyectil%20es,f%C3%ADsica%20e%20ingenier%C3%ADa%20son%20numerosas">Openstax</a>
+
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="inner_cell">
